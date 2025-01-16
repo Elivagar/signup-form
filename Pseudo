@@ -1,126 +1,99 @@
-/* Rune Circles */
+/* Hero */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
 
 position: absolute;
-width: 760px;
-height: 760px;
-left: calc(50% - 760px/2 - 2px);
-top: calc(50% - 760px/2 + 13px);
+width: 666px;
+height: 144px;
+left: calc(50% - 666px/2);
+top: calc(50% - 144px/2 - 295px);
 
 
 
-/* Rune Circle */
+/* Top */
 
-position: absolute;
-width: 760px;
-height: 760px;
-left: 1098px;
-top: calc(50% - 760px/2 + 13px);
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
 
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-
-/* Rune Circle */
-
-position: absolute;
-width: 760px;
-height: 760px;
-left: calc(50% - 760px/2 + 758px);
-top: calc(50% - 760px/2 + 13px);
-
-transform: matrix(-1, 0, 0, 1, 0, 0);
+width: 666px;
+height: 40px;
 
 
-/* Vector */
-
-position: absolute;
-left: 97.41%;
-right: -92.24%;
-top: 2.58%;
-bottom: 2.59%;
-
-border: 1px dashed #4F3A1F;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 
 
-/* Vector */
+/* H1 */
 
-position: absolute;
-left: 100%;
-right: -100%;
-top: 0%;
-bottom: 0%;
+width: 196px;
+height: 40px;
 
-background: #4F3A1F;
-transform: matrix(-1, 0, 0, 1, 0, 0);
+/* H2 */
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 125%;
+/* identical to box height, or 40px */
+text-align: center;
+font-variant: small-caps;
 
+color: #B3BDC0;
 
-/* max-kuntscher-tBbpxLVQinw-unsplash 1 */
+text-shadow: 0px 4px 4px rgba(11, 13, 14, 0.2);
 
-position: absolute;
-width: 3969px;
-height: 5951px;
-left: calc(50% - 3969px/2 - 993.5px);
-top: calc(50% - 5951px/2 + 4980.5px);
-
-background: conic-gradient(from 105.42deg at 50% 50%, rgba(11, 13, 14, 0) 0deg, #0B0D0E 180deg, #0B0D0E 360deg), linear-gradient(0deg, #8C6E30, #8C6E30), url(mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
-background-blend-mode: normal, color, luminosity;
-transform: rotate(-90deg);
-
-
-/* Rune Circle */
-
-position: absolute;
-width: 760px;
-height: 760px;
-left: 338px;
-top: calc(50% - 760px/2 + 773px);
-
-transform: matrix(1, 0, 0, -1, 0, 0);
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 
 
-/* Rune Circle */
+/* Line 8 */
 
-position: absolute;
-width: 760px;
-height: 760px;
-left: calc(50% - 760px/2 - 2px);
-top: calc(50% - 760px/2 + 773px);
-
-transform: matrix(1, 0, 0, -1, 0, 0);
+width: 666px;
+height: 0px;
 
 
-/* Vector */
-
-position: absolute;
-left: 2.59%;
-right: 2.59%;
-top: 97.42%;
-bottom: -92.24%;
-
-border: 1px dashed #4F3A1F;
-transform: matrix(1, 0, 0, -1, 0, 0);
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 
 
-/* Vector */
+/* Subheading */
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 100%;
-bottom: -100%;
+width: 666px;
+height: 56px;
 
-background: #4F3A1F;
-transform: matrix(1, 0, 0, -1, 0, 0);
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+text-align: center;
+letter-spacing: 1px;
+font-variant: all-small-caps;
 
+color: #92999C;
 
-/* max-kuntscher-tBbpxLVQinw-unsplash 1 */
+text-shadow: 0px 4px 4px rgba(11, 13, 14, 0.2);
 
-position: absolute;
-width: 3969px;
-height: 5951px;
-left: calc(50% - 3969px/2 + 4958.5px);
-top: calc(50% - 5951px/2 + 996.5px);
-
-background: conic-gradient(from 105.42deg at 50% 50%, rgba(11, 13, 14, 0) 0deg, #0B0D0E 180deg, #0B0D0E 360deg), linear-gradient(0deg, #8C6E30, #8C6E30), url(mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
-background-blend-mode: normal, color, luminosity;
-transform: rotate(90deg);
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
