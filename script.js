@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll('input');
 const password = document.getElementById('password');
-const repeatPassword = document.getElementById('repeat-password');
+const confirmPassword = document.getElementById('confirm-password');
 
 const invitationCode = document.getElementById('invitation-code');
 const validCodes = ['TROMSØ123', 'TROMSØ456', 'TROMSØ789'];
@@ -40,22 +40,22 @@ inputs.forEach(input => {
 });
 
 // PASSWORD CHECK
-repeatPassword.addEventListener('input', () => {
-    if (repeatPassword.value === password.value) {
-        repeatPassword.setCustomValidity('');
-        repeatPassword.classList.add('valid');
-        repeatPassword.classList.remove('invalid');
+confirmPassword.addEventListener('input', () => {
+    if (confirmPassword.value === password.value) {
+        confirmPassword.setCustomValidity('');
+        confirmPassword.classList.add('valid');
+        confirmPassword.classList.remove('invalid');
     } else {
-        repeatPassword.setCustomValidity('Passwords do not match');
-        repeatPassword.classList.add('invalid');
-        repeatPassword.classList.remove('valid');
+        confirmPassword.setCustomValidity('Passwords do not match');
+        confirmPassword.classList.add('invalid');
+        confirmPassword.classList.remove('valid');
     }
 });
 
-repeatPassword.addEventListener('blur', () => {
-    if (repeatPassword.value.trim() === '') {
-        repeatPassword.setCustomValidity('');
-        repeatPassword.classList.remove('valid', 'invalid');
+confirmPassword.addEventListener('blur', () => {
+    if (confirmPassword.value.trim() === '') {
+        confirmPassword.setCustomValidity('');
+        confirmPassword.classList.remove('valid', 'invalid');
     }
 });
 
