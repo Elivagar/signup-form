@@ -248,6 +248,9 @@ header .logo:hover {
 
 
 .success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -256,7 +259,6 @@ header .logo:hover {
     opacity: 0;
     transition: opacity 800ms ease-in-out 400ms;
     pointer-events: none;
-    justify-items: center;
     font-family: 'Work Sans';
     color: rgb(179, 189, 192);
     font-size: 0.875rem;
